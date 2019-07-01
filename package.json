@@ -1,0 +1,11 @@
+{
+  "name": "watchthis",
+  "version": "1.0.0",
+  "description": "A fun movie app that helps you decide what you want to watch",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Rivera",
+  "license": "ISC"
+}
