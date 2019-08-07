@@ -1,0 +1,37 @@
+.movie-card {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #fff;
+
+	width: 90%;
+	max-width: 500px;
+	margin: 2em auto 0;
+}
+
+.movie-card-item {
+	position: relative;
+	display: flex;
+	align-items: start;
+	justify-content: space-evenly;
+	padding: 1em;
+	border: 1px solid;
+	height: 500px;
+}
+
+.poster {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.movie-card-info {
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+}

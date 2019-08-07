@@ -1,0 +1,35 @@
+.background {
+	background: rgb(255, 0, 24);
+	background: -webkit-linear-gradient(
+		bottom left,
+		rgba(255, 0, 24, 1) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
+	background: -o-linear-gradient(
+		bottom left,
+		rgba(255, 0, 24, 1) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
+	background: linear-gradient(
+		to top right,
+		rgba(255, 0, 24, 1) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
+}
+
+.login {
+	position: relative;
+	top: 4em;
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 0px 13px 21px -10px rgba(0, 0, 0, 0.3);
+}
+
+.login-title {
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+}
+
+.login-form {
+	margin-bottom: 6em;
+}

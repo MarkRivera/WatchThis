@@ -1,0 +1,15 @@
+.user-container {
+	display: flex;
+	flex-flow: column;
+	margin: 0 auto;
+	justify-content: space-evenly;
+	color: #fff;
+	width: 50%;
+	max-width: 200px;
+}
+
+.user-info {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
