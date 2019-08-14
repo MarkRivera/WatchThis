@@ -19,6 +19,7 @@
 	width: 100%;
 	background-image: url(./800h.jpg);
 	background-size: cover;
+	background-position: center;
 }
 
 .hero {
@@ -40,22 +41,22 @@
 }
 
 .register-btn {
-	display: 				  flex;
-	justify-content:  center;
-	align-items: 		  center;
-	text-decoration:  none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
 
 	background-color: rgb(162, 4, 19);
 	border: 2px solid rgb(162, 4, 19);
 	padding: 1.5em 15vw;
-	color: 	 				  #fff;
-	height:  				  48px;
-	max-width: 				300px;
-	transition: 			all .2s ease-out;
+	color: #fff;
+	height: 48px;
+	max-width: 300px;
+	transition: all 0.2s ease-out;
 }
 
 .register-btn i {
-	margin-right: .5em;
+	margin-right: 0.5em;
 }
 
 .register-btn:hover {
@@ -65,5 +66,29 @@
 }
 
 .login-icon {
-	margin-right: .2em;
+	margin-right: 0.2em;
+}
+
+@media screen and (min-width: 576px) {
+	.bg-image {
+		background-image: url(./576.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.bg-image {
+		background-image: url(./768.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.bg-image {
+		background-image: url(./1200.jpg);
+		background-size: cover;
+		background-position: center;
+	}
 }
