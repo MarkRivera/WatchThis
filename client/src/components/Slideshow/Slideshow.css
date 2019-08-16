@@ -63,12 +63,15 @@
 	}
 
 	.movie-poster {
+		margin: 0;
 		width: 50%;
 	}
 
 	.movie-info {
 		background-color: rgba(0, 0, 0, 0.8);
 		padding: 4em 1em;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 }
 

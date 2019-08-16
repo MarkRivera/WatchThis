@@ -13,3 +13,10 @@
 	flex-flow: column;
 	justify-content: space-between;
 }
+
+@media screen and (min-width: 768px) {
+	.user-container {
+		flex-flow: row;
+		max-width: 500px;
+	}
+}
