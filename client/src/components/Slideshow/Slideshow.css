@@ -60,6 +60,7 @@
 	.movie-slide {
 		display: flex !important;
 		align-items: stretch;
+		height: 90vh;
 	}
 
 	.movie-poster {
